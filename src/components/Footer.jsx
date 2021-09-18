@@ -49,13 +49,25 @@ function Footer(){
         </ul>
         </div>
         </div>
+        <hr className='hr-one'/>
+        <hr className='hr-two'/>
+        <hr className='hr-three'/>
+
         <div className='footer-icons'>
             <div>
+            <a href="https://www.facebook.com/EnjazAlbilad/">
             <FaFacebookF/>
+              </a>
+              <a href="https://www.instagram.com/enjazalbilad/?hl=en">
             <FaInstagram/>
+              </a>
+              <a href="https://twitter.com/EnjazAlbilad?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
             <FaTwitter/>
+              </a>
             <FaSnapchatGhost/>
+              <a href="https://www.linkedin.com/company/injaz-jordan/?originalSubdomain=jo">
             <FaLinkedinIn/>
+              </a>
             </div>
             &copy; Injaz 2021
         </div>

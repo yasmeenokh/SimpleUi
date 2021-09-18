@@ -38,12 +38,18 @@ function ContactUs(){
 
     return(
         <>
+        <div className='hrDiv'>
+<hr className='hrFirst'/>
+<hr className='hrTwo'/>
+<hr className='hrThree'/>
+        </div>
 <div className={classes.root} className='contact-main'>
-<Paper elevation={3} style={{padding:'5%'}}>
+
+<Paper elevation={3} style={{padding:'5%',}}>
 <h2 style={{color:'#050a30', textAlign:'center', marginBottom:'4%'}}>
             CONTACT FORM
 </h2>
-      <div>
+      <div className='formDiv'>
         <TextField
           id="outlined-full-width"
           label="Name"
@@ -104,6 +110,7 @@ function ContactUs(){
         </div>  
       </div>
       </Paper>
+
     <div className='iconDiv'>
       <h2>CONTACT US</h2>
       <div>
@@ -151,6 +158,11 @@ fontSize='large'
 </p>
       </div>
     </div>
+    <div className='hrSecondDiv'>
+<hr className='hrAsideOne'/>
+<hr className='hrAsideTwo'/>
+<hr className='hrAsideThree'/>
+</div>
     </div>
         </>
     )

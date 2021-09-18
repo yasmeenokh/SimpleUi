@@ -16,6 +16,12 @@ import royal from '../assets/royal.png';
 import sts from '../assets/sts.png';
 import umniah from '../assets/umniah.png';
 import zain from '../assets/zain.png'
+import visa from '../assets/visa.png';
+import central from '../assets/central.png';
+import usaid from '../assets/usaid.png';
+import hikma from '../assets/hikma.png';
+import microsoft from '../assets/microsoft.png';
+import samsung from '../assets/samsung.png';
 
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -105,23 +111,29 @@ function Partners(){
         <TabPanel value={value} index={0} dir={theme.direction}
         className='p-slider-imgs'
         >
-          <img src={arabiBank} alt="arabiBank" style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={arabiBank} alt="arabiBank" style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
           <img src={aramex} alt="aramex"  style={{width:'14%', height: '12vh', borderRadius:'0%'}}/>
-          <img src={ayla} alt="ayla"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={ethad} alt="ethad"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={gig} alt="gig"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={islamiBank} alt="islamiBank"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={jordanBank} alt="jordanBank"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={metlife} alt="metlife"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={natHealth} alt="natHealth"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={nisir} alt="nisir"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={ayla} alt="ayla"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={ethad} alt="ethad"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={gig} alt="gig"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={islamiBank} alt="islamiBank"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={jordanBank} alt="jordanBank"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={metlife} alt="metlife"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={natHealth} alt="natHealth"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={nisir} alt="nisir"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={samsung} alt="samsung"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
-          <img src={orange} alt="orange"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={sts} alt="sts"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={royal} alt="royal"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={umniah} alt="umniah"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
-          <img src={zain} alt="zain"  style={{width:'16%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={orange} alt="orange"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={sts} alt="sts"  style={{width:'12%', height: '20vh', borderRadius:'0%'}}/>
+          <img src={royal} alt="royal"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/>
+          <img src={umniah} alt="umniah"  style={{width:'12%', height: '20vh', borderRadius:'0%'}}/>
+          <img src={zain} alt="zain"  style={{width:'12%', height: '20vh', borderRadius:'0%'}}/>
+          <img src={visa} alt="visa"  style={{width:'14%', height: '22vh', borderRadius:'0%'}}/>
+          <img src={central} alt="central" style={{width:'12%', height: '20vh', borderRadius:'0%'}}/>
+          <img src={usaid} alt="usaid"  style={{width:'12%', height: '22vh', borderRadius:'0%'}}/>
+          <img src={hikma} alt="hikma"  style={{width:'12%', height: '24vh', borderRadius:'0%'}}/>
+          {/* <img src={microsoft} alt="microsoft"  style={{width:'12%', height: '15vh', borderRadius:'0%'}}/> */}
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
           Item Three
@@ -132,7 +144,7 @@ function Partners(){
           onChange={handleChange}
           textColor="secondary"
           aria-label="full width tabs example"
-          style={{width: '15vw', marginLeft:'40%',}}
+          style={{ marginLeft:'40%',}}
         >
           <Tab label="<<" {...a11yProps(0)} 
           />

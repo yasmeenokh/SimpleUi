@@ -1,11 +1,12 @@
 import React from "react";
 import Logo from '../assets/injazLogo.png';
-import Injazel from '../assets/injazEl.jpg';
+import Injazel from '../assets/e-learning.png';
 import MyStartUp from '../assets/mySTARTUP-LOGO.png' 
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import team1 from '../assets/team1.jpg';
 import team2 from '../assets/team2.jpg';
 import team3 from '../assets/team3.jpg'
+import Button from '@material-ui/core/Button';
 import './styles.css'
 
 
@@ -22,16 +23,18 @@ function OurMission(){
         <div className='m-grid'>
         <div className='m-icon'>
         <img src={MyStartUp} alt="myStartup"  className='m-img'/>
-        <div>
-            <h6 style={{fontSize:'1.3em', fontWeight:'bold'}}>Explore</h6>
-            <ArrowRightIcon style={{color: 'crimson', fontSize:'3em'}}/>
+        <div className='m-button'>
+            <Button color="secondary" size='small'>Explore
+            <ArrowRightIcon style={{color: '#F51720', fontSize:'3em'}} className='m-arrow'/>
+         </Button>
         </div>
         </div>
         <div className='m-icon'>
         <img src={Injazel} alt="Injazel"  className='m-img'/>
-        <div>
-            <h6 style={{fontSize:'1.3em', fontWeight:'bold'}}>Explore</h6>
-            <ArrowRightIcon style={{color: 'rgb(245, 175, 47)', fontSize:'3em'}} className='m-arrow'/>
+        <div className='m-button'>
+            <Button color="secondary" size='small'>Explore
+            <ArrowRightIcon style={{color: '#F51720', fontSize:'3em'}} className='m-arrow'/>
+         </Button>
         </div>  
             </div>
         </div>

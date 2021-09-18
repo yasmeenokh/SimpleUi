@@ -1,5 +1,5 @@
 import React from "react";
-import media2 from '../assets/media.jpg';
+import media2 from '../assets/socMed.png';
 import deal from '../assets/deal.jpeg';
 import media3 from '../assets/media3.jpeg';
 import media4 from '../assets/media4.jpeg'
@@ -24,9 +24,9 @@ function MediaCenter(){
         {/* </div>   */}
             </div>
             <div className='c-secondDiv'>
-<img src={deal} alt="deal" style={{width: '20%', height: '50vh', border: 'solid', borderColor:'#0b1457'}}/>
-<img src={media3} alt='media3'style={{width: '20%', height: '50vh', border: 'solid #0b1457'}} />
-<img src={media4} alt='media4' style={{width: '20%', height: '50vh', border: 'solid #0b1457'}}/>
+<img src={deal} alt="deal" style={{width: '25%', height: '50vh', border: 'solid', borderColor:'#0b1457'}}/>
+<img src={media3} alt='media3'style={{width: '25%', height: '50vh', border: 'solid #0b1457'}} />
+<img src={media4} alt='media4' style={{width: '25%', height: '50vh', border: 'solid #0b1457'}}/>
             </div>
         </div>
         </>

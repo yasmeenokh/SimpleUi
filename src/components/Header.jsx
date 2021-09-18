@@ -56,7 +56,7 @@ function Header(){
         style={{marginLeft:'25%'}}
         />
         <p
-        style={{marginLeft:'25%', marginTop:'3%', marginBottom:'3%'}}
+        style={{marginLeft:'20%', marginTop:'3%', marginBottom:'3%'}}
         >New space for generation</p>
         <Paper component="form" className={classes.root}>
       <TextField
@@ -77,11 +77,19 @@ function Header(){
       <IconButton  className={classes.iconButton} aria-label="directions">
       </IconButton>
             <div className='hero-icons'>
+              <a href="https://www.facebook.com/EnjazAlbilad/">
             <FaFacebookF/>
+              </a>
+              <a href="https://www.instagram.com/enjazalbilad/?hl=en">
             <FaInstagram/>
+              </a>
+              <a href="https://twitter.com/EnjazAlbilad?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
             <FaTwitter/>
+              </a>
             <FaSnapchatGhost/>
+              <a href="https://www.linkedin.com/company/injaz-jordan/?originalSubdomain=jo">
             <FaLinkedinIn/>
+              </a>
             </div>
     </Paper>
     </div>

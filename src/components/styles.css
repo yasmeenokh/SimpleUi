@@ -11,7 +11,9 @@
   --primaryFont: Helvetica;
   --secondaryFont: "helveticaSecondary";
 }
-
+.hero-div a {
+  text-decoration: none;
+}
 h2,
 h3,
 h4,
@@ -47,6 +49,10 @@ h6 {
   flex-direction: row;
   justify-content: space-between;
   color: rgb(193, 199, 204);
+}
+.hero-icons a {
+  color: rgb(193, 199, 204);
+  text-decoration: none;
 }
 .hero-div-slider {
   background-image: url("../assets/border2.png");
@@ -118,6 +124,10 @@ h6 {
 .m-icon div :nth-child(2):hover {
   background-color: rgb(236, 233, 233);
   border-radius: 50%;
+}
+.m-button {
+  padding-left: 25%;
+  margin-top: -2%;
 }
 
 .o-imgDiv img {
@@ -270,6 +280,7 @@ h6 {
   left: 28vw;
   line-height: 1.4em;
   font-family: var(--secondaryFont);
+  max-height: 70vh;
 }
 .p-main h2 {
   font-weight: bold;
@@ -283,7 +294,7 @@ h6 {
 }
 .p-slider-imgs {
   width: 80vw;
-  max-height: 64.5vh;
+  max-height: 64vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -342,7 +353,7 @@ h6 {
 .l-main {
   position: relative;
   top: 190vh;
-  z-index: 1;
+  z-index: 2;
 }
 .l-secondary {
   position: absolute;
@@ -365,6 +376,91 @@ h6 {
   position: absolute;
   top: 480vh;
   padding: 5% 12%;
+  z-index: 1;
+}
+.hrDiv {
+  position: absolute;
+  top: 480vh;
+  max-width: 100vw;
+  /* left: 50vw; */
+}
+.hrSecondDiv {
+  position: absolute;
+  top: 20vh;
+  max-width: 100vw;
+  /* background-color: #f51720; */
+}
+.hrAsideOne {
+  position: relative;
+  top: 10vh;
+  left: 60vw;
+  z-index: 2;
+  border: 0;
+  height: 3px;
+  width: 109vh;
+  background-image: linear-gradient(to right, #f52b32, #f5171eb6, #f54b50);
+  -ms-transform: rotate(20deg);
+  transform: rotate(70deg);
+}
+.hrAsideTwo {
+  position: relative;
+  top: 38vh;
+  left: 54.5vw;
+  z-index: 2;
+  border: 0;
+  height: 3px;
+  width: 85vh;
+  background-image: linear-gradient(to right, #00b4d8, #07beb8, #c4fff9);
+  -ms-transform: rotate(20deg);
+  transform: rotate(-30deg);
+}
+.hrAsideThree {
+  position: relative;
+  top: 18vh;
+  left: 54.5vw;
+  z-index: 2;
+  border: 0;
+  height: 3px;
+  width: 85vh;
+  background-image: linear-gradient(to right, #ffee32, #ffd100, #fff795);
+  -ms-transform: rotate(20deg);
+  transform: rotate(-70deg);
+}
+.hrFirst {
+  position: relative;
+  top: 10vh;
+  left: -13vh;
+  z-index: 2;
+  border: 0;
+  height: 3px;
+  width: 50vh;
+  background-image: linear-gradient(to right, #f52b32, #f5171eb6, #f54b50);
+  -ms-transform: rotate(20deg);
+  transform: rotate(60deg);
+}
+.hrTwo {
+  position: relative;
+  top: 20vh;
+  left: -13vh;
+  z-index: 2;
+  border: 0;
+  height: 3px;
+  width: 11.8vw;
+  background-image: linear-gradient(to right, #00b4d8, #07beb8, #c4fff9);
+  -ms-transform: rotate(20deg);
+  transform: rotate(-15deg);
+}
+.hrThree {
+  position: relative;
+  top: 11vh;
+  left: -13vh;
+  z-index: 2;
+  border: 0;
+  height: 3px;
+  width: 35vh;
+  background-image: linear-gradient(to right, #ffee32, #ffd100, #fff795);
+  -ms-transform: rotate(20deg);
+  transform: rotate(-45deg);
 }
 .contact-main h2 {
   font-family: var(--primaryFont);
@@ -425,11 +521,17 @@ h6 {
 }
 .footer-icons {
   color: white;
-  position: relative;
-  top: 325vh;
+  position: absolute;
+  top: 620vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
+  width: 100%;
+}
+.footer-icons a {
+  color: white;
+  text-decoration: none;
 }
 .footer-icons div {
   font-size: 1.5em;
@@ -440,4 +542,28 @@ h6 {
   justify-items: center;
   justify-content: space-between;
   align-items: center;
+}
+.hr-one,
+.hr-two,
+.hr-three {
+  position: relative;
+  top: 315vh;
+  border: 0;
+  height: 3px;
+  width: 100%;
+}
+.hr-one {
+  background-image: linear-gradient(to right, #f51720, #f5171eb6, #f54b50);
+  -ms-transform: rotate(20deg);
+  transform: rotate(3deg);
+}
+.hr-two {
+  background-image: linear-gradient(to right, #00b4d8, #07beb8, #c4fff9);
+  -ms-transform: rotate(20deg);
+  transform: rotate(-3deg);
+}
+.hr-three {
+  background-image: linear-gradient(to right, #ffee32, #ffd100, #fff795);
+  -ms-transform: rotate(20deg);
+  transform: rotate(2deg);
 }
